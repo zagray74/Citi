@@ -1,0 +1,212 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #304041;
+	letter-spacing: 0.05em;
+}
+* {
+	box-sizing: border-box;
+}
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 800;	
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.header {
+	background: linear-gradient(180deg, rgba(121, 181, 196, 0) 1.39%, rgba(19, 75, 85, 0.26) 44.44%), url("../image/rectans.png") no-repeat center top / cover;
+	text-align: center;
+	padding: 90px 0 80px;
+}
+.offer__pretitle_text {
+	margin: 200px auto 35px;
+	width: 270px;
+	background: #fff;
+	padding: 8px 17px;
+	border-radius: 78px;
+	font-weight: 800;
+    color: #000;    
+    text-transform: uppercase;
+}
+.offer__title {
+	color: #FFFFFF;
+	font-size: 60px;
+	letter-spacing: 0.145em;
+	font-weight: 800;
+	margin: 24px;
+}
+.offer__text {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+.offer__btn {
+	margin: 0 auto;
+	font-weight: 800;
+}
+.btn {
+	color: #fff;	
+	background: #ffcc80;
+    border-radius: 119px;
+    padding: 18px 52px;
+    display: flex;
+    width: 247px;
+    flex-direction: row;    
+    transition: 0.5s ease;
+}
+.btn:hover{
+	background:  #b36b00;
+}
+
+.down{
+	display: inline-block;
+	background: url('../image/down.png');
+	width: 18px;
+	height: 27px;
+}
+.route{
+	padding: 143px 0;
+}
+.section-title {
+	font-size: 30px;	
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.route__span{
+	font-weight: 500;
+	font-size: 15px;
+	color: #789AA0;
+	padding: 112px 0 0px 73px;
+}
+h3 {
+	font-size: 24px;	
+	width: 335px;
+	margin: 20px 0 30px 73px;
+}
+.route_list{
+	background: url("../image/pragus.png") no-repeat right;
+	height: 700px;
+	filter: drop-shadow(0px 25px 70px rgba(4, 43, 55, 0.28));
+	border-radius: 0px 5px 5px 0px;	
+}
+
+.route__pari {	
+	width: 521px;
+	margin: 30px 0 0 73px;
+	line-height: 23px
+}
+.time {
+	display: inline-block;
+    width: 69px;
+    height: 18px;
+	background: url('../image/next.png');
+	margin: 48px 0 0 76px;
+}
+.center-btn {	
+	color: #23CF7D;
+	border: 1px solid #23CF7D;
+    border-radius: 119px;
+    padding: 20px 0 20px 35px;
+    display: flex;
+    width: 274px;
+    flex-direction: row;
+    text-align: center;
+    margin: 100px 433px 0px;    
+}
+.bagr{
+	background:  #EAF4F7;
+}
+
+.story-content {
+	display: flex;
+}
+
+.story-content > div {
+	flex-direction: row;
+
+}
+
+.guide {
+	background: url('../image/praguees.png') no-repeat right;
+	height: 626px;
+}
+
+.story-content__item {
+	margin-bottom: 61px;
+}
+
+.rectangle {
+	height: 7px;
+	width: 64px;
+	background: #4EB1B6;
+	border-radius: 23px;
+	margin-bottom: 15px;
+}
+
+.story-content__list {
+	padding-top: 157px;
+	font-size: 16px;
+}
+
+#footer {
+	margin-top: 140px;
+	height: 160px;
+}
+
+.copyright {
+	margin-right: 60px;
+	font-weight: 500;
+	font-size: 14px;
+	
+}
+@media screen and (max-width: 1200px){
+   .container {
+   		width: 960px;
+   }
+
+	.offer__pretitle_text {
+    	margin: 200px 360px 35px;    
+	}
+
+	.center__pari {
+	    width: auto;
+	}
+
+	.center-btn {    
+	    margin: 100px 353px 140px;
+	}
+
+	
+}
+@media screen and (max-width: 992px)
+ {
+ 
+ .guide {
+    background-position: 400px;
+
+}
+.center__pari {
+	    width: 45%;
+}
+.story-content{
+	width: 40%;
+}	    
+}
